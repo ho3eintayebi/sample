@@ -1,0 +1,200 @@
+html{
+    font-size: 100%;
+}
+@font-face{
+    font-family:'anjoman';
+    src: url('D:\\programming\\Html\\pop up sign up form\\Anjoman-Regular.woff')
+    url('D:\\programming\\Html\\pop up sign up form\\Anjoman-Regular.woff2')
+    url('D:\\programming\\Html\\pop up sign up form\\Anjoman-Regular.eot')
+    url('D:\\programming\\Html\\pop up sign up form\\Anjoman-Regular.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.div1{
+    background-image:url("road-3840x2160-city-4k-20271.jpg");
+    width: 100%;
+    height: 100vh;
+}
+.div11{
+    display: block;
+    width: 40%;
+    height: 40%;
+    background-color: rgba(240, 248, 255, 0.692);
+    border-radius: 10px;
+    margin: 0px auto;
+}
+#btn{
+    font-family:"vazir";
+    font-size:20px;
+    background-color: #e1b382;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 2% 4%;
+    border-radius: 3px;
+    position: relative;
+    top: 40%;
+    left: 40%;
+    transition-duration: 0.4s;
+    box-shadow:0px 4px 4px 0px;
+    border: none;
+}
+.div12{
+    display:none;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    height: 40%;
+    background-color: rgba(240, 248, 255, 0.692);
+    border-radius: 10px;
+    margin: 0px auto;
+}
+#btn:hover{
+    color: #e1b382;
+    background-color: aliceblue;
+    box-shadow: none;
+}
+#inputform{
+    float:left;
+    font-size: 1.5rem;
+    font-family: system-ui;
+}
+.h1{
+    margin-left: 5%;
+}
+.lbl{
+    margin-left: 6%;
+    float:initial;
+}
+#signbtn{
+    margin-top: 8%;
+    margin-left: 10%;
+    font-family:system-ui;
+    font-size:1.3rem;
+    font-weight: 200;
+    padding: 3px 10px;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 4px;
+    background-color: rgb(161, 213, 83);
+}
+#closebtn{
+    margin-top: 8%;
+    margin-left: 5%;
+    font-family:system-ui;
+    font-size:1.3rem;
+    font-weight: 200;
+    padding: 3px 10px;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 4px;
+    background-color: rgb(184, 94, 94);
+}
+#closebtn:hover{
+    cursor: pointer;
+    background-color: rgb(243, 43, 43);
+}
+#signbtn:hover{
+    cursor: pointer;
+    background-color: rgb(172, 236, 75);
+}
+.inpt{
+    width: 70%;
+    height: 40px;
+    margin-top: 20px;
+}
+.inpte{
+    margin-left: 7%;
+}
+.div13{
+    display: none;
+    font-family: system-ui;
+    width: 40%;
+    height: 50%;
+    background-color: rgba(240, 248, 255, 0.692);
+    border-radius: 10px;
+    margin: 0px auto;
+    padding-left: 4%;
+}
+.h2{
+    font-weight: 700;
+    padding-top: 3%;
+}
+.lbl2{
+    font-size: 1.3rem;
+}
+.div131{
+    margin-top: 1%;
+}
+.div131 input{
+    border: none;
+    width: 60%;
+    height: 30px;
+    margin-left: 6%;
+}
+.div132{
+    margin-top: 2%;
+}
+.div132 input{
+    border: none;
+    width: 60%;
+    height: 30px;
+    margin-left: 6.3%;
+}
+.div133{
+    margin-top: 2%;
+}
+.div133 input{
+    border: none;
+    width: 60%;
+    height: 30px;
+}
+.div134{
+    margin-top: 2%;
+}
+.div134 input{
+    border: none;
+    width: 60%;
+    height: 30px;
+    margin-left: 15%;
+}
+.div135{
+    margin-top: 2%;
+}
+.div135 input{
+    width: 10%;
+    height: 20px;
+}
+#signbtn2{
+    margin-top: 3%;
+    margin-left: 10%;
+    font-family:system-ui;
+    font-size:1.3rem;
+    font-weight: 200;
+    padding: 3px 10px;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 4px;
+    background-color: rgb(161, 213, 83);
+}
+#signbtn2:hover{
+    cursor: pointer;
+    background-color: rgb(172, 236, 75);
+}
+#closebtn2{
+    margin-top: 3%;
+    margin-left: 5%;
+    font-family:system-ui;
+    font-size:1.3rem;
+    font-weight: 200;
+    padding: 3px 10px;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 4px;
+    background-color: rgb(184, 94, 94);
+}
+#closebtn2:hover{
+    cursor: pointer;
+    background-color: rgb(243, 43, 43);
+}
